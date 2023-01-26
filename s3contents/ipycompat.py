@@ -19,8 +19,8 @@ from jupyter_server.services.contents.checkpoints import (
     Checkpoints,
     GenericCheckpointsMixin,
 )
-from jupyter_server.services.contents.manager import GenericFileCheckpoints
-from jupyter_server.services.contents.manager import FileContentsManager
+from jupyter_server.services.contents.filecheckpoints import GenericFileCheckpoints
+from jupyter_server.services.contents.filemanager import FileContentsManager
 from jupyter_server.services.contents.manager import ContentsManager
 from notebook.utils import to_os_path
 from traitlets import (
